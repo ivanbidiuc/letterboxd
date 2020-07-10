@@ -1,0 +1,123 @@
+.abc{
+    font-family:Graphik-Regular-Web,sans-serif;
+    text-align: center;
+    background-color: #101417;
+}
+.navbar-brand{
+    margin-left: 400px;
+}
+.nav-link{
+    margin-left: 50px;
+    position: relative
+}
+
+
+
+
+.container{
+    height: 600px;
+    margin-top: 5px;
+    
+    border-radius: 50px;
+    
+}
+
+.text{
+    position: absolute;
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+    line-height: 1.4;
+    color: #fff;   
+    font-weight: 400;
+font-family: TiemposHeadlineWeb-Bold,Georgia,serif;
+   
+}
+.start{
+    margin-top: 3.07692308rem;
+    margin-bottom: 3.07692308rem;
+    margin-top: 15px;
+    background: #00c030;
+    color: #fff;
+    font-size: 1.23076923rem;
+    padding: .625em 1.5em;
+    text-transform: uppercase;
+    letter-spacing: .075em;
+        cursor: pointer;
+}
+.platforms{
+    display: block;
+    margin-bottom: .5em;
+    text-align: center;
+    font-weight: 400;
+}
+
+
+
+.button{
+    margin-top: 4px;
+    background: #607790; 
+    width: calc(30% - 50px);
+    height: 50px;
+    
+}
+
+.img{
+    margin-bottom: 8px;
+}
+
+.write{
+    text-align: left;
+    color: #607790;
+    margin-top: 9px;
+    margin-left: 150px;
+
+}
+.edit{
+    color: #607790;
+    text-align: center;
+}
+
+
+
+
+
+
+
+footer .container{
+    display: flex;
+    
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    margin-top: 0;
+    flex-wrap: wrap;
+}
+.footer-nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.social{
+    align-items: center;
+}
+.footer-nav {
+    display: flex;
+     justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    
+}
+
+
+
+
+.footer-nav ul li{
+    margin-right: 1.6rem;
+}
+.footer-nav ul li a{
+    color: #003569;
+}
+.copyright-notice{
+    color:#999999
