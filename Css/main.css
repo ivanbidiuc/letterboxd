@@ -16,9 +16,9 @@
 
 .container{
     height: 600px;
-    margin-top: 5px;
+    width: 500px;
+   
     
-    border-radius: 50px;
     
 }
 
@@ -59,7 +59,10 @@
     background: #607790; 
     width: calc(30% - 50px);
     height: 50px;
-    
+    transition: 0.3s ease;
+}
+.button:hover{
+    background-color: greenyellow;
 }
 
 .img{
@@ -120,4 +123,11 @@ footer .container{
     color: #003569;
 }
 .copyright-notice{
-    color:#999999
+    color:#999999;}
+
+
+@media (max-width:800px  ){
+    .collapse navbar-collapse{
+        font-size: 50px;
+    }
+}
