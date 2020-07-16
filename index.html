@@ -14,11 +14,13 @@
   <img src="resources/1.jpg" alt="">
 </a>
 
-<form class= "form-inline my-2 my-lg-0">
-  <input class= "form-control mr-sm-2" type="text" placeholder="Search">
-  <button class= "btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+<form class= "form-inline my-2 my-lg-0" id="searchForm">
+  <input class= "form-control " type="text" placeholder="Search" id="inputValue">
+  <button class= "btn btn-secondary " type="submit" id="search">Search </button>
 </form>
   
+<div id="movies-searchable"></div>
+      <div id="movies-container"></div>
 
 
   <div class="container">
@@ -36,13 +38,13 @@
     <img src="resources/12.jpg" alt="">
     <img src="resources/13.jfif" alt="">
     <img src="resources/3.jpg" alt="">
-   <img src="resources/4.jpg" alt=""><br>
-   <img src="resources/5.jpg" alt="">
-   <img src="resources/6.jpg" alt="">
-   <img src="resources/7.jpg" alt="">
-   <img src="resources/8.jpg" alt="">
-   <img src="resources/9.jpg" alt="">
-   <img src="resources/10.jfif" alt="">
+    <img src="resources/4.jpg" alt=""><br>
+    <img src="resources/5.jpg" alt="">
+    <img src="resources/6.jpg" alt="">
+    <img src="resources/7.jpg" alt="">
+    <img src="resources/8.jpg" alt="">
+    <img src="resources/9.jpg" alt="">
+    <img src="resources/10.jfif" alt="">
     
     </div>
     <br>
@@ -51,17 +53,17 @@
     
 				<nav class="footer-nav " >
 					<ul >
-						<li><a href="/about/" > About</a></li><br>
-						<li><a href="https://news.letterboxd.com" > News</a></li><br>
-						<li class="js-hide-in-app" ><a href="/pro/"> Pro</a></li><br>
+						<li><a href="/about/" > About </a></li><br>
+						<li><a href="https://news.letterboxd.com" > News </a></li><br>
+						<li class="js-hide-in-app" ><a href="/pro/"> Pro </a></li><br>
 						<li><a href="/apps/" > Apps </a></li>
-						<li><a href="/year-in-review/">Year in Review</a></li>
-						<li><a href="/gift-guide/">Gift Guide</a></li>
-						<li><a href="http://letterboxd.show" target="_blank">Podcast</a></li>
-						<li><a href="/welcome/">Help</a></li>
-						<li><a href="/legal/terms-of-use/">Terms</a></li>
-						<li><a href="/api-beta/">API</a></li>
-						<li><a href="/contact/">Contact</a></li>
+						<li><a href="/year-in-review/"> Year in Review </a></li>
+						<li><a href="/gift-guide/"> Gift Guide </a></li>
+						<li><a href="http://letterboxd.show" target="_blank"> Podcast </a></li>
+						<li><a href="/welcome/"> Help </a></li>
+						<li><a href="/legal/terms-of-use/"> Terms </a></li>
+						<li><a href="/api-beta/"> API </a></li>
+						<li><a href="/contact/"> Contact </a></li>
 					</ul>
 				</nav>
 	
@@ -77,7 +79,9 @@
 						<a href="#" class="mute mobile-site-switch" data-use-mobile-site="no">Desktop&nbsp;site</a>.
 					
 	</span>
-				<span class="recap" style="display:none"><br>This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" target="_blank" class="mute">privacy policy</a> and <a href="https://policies.google.com/terms" target="_blank" class="mute">terms of service</a>&nbsp;apply.</span>
+        <span class="recap" style="display:none"><br>This site is protected by reCAPTCHA and the Google 
+          <a href="https://policies.google.com/privacy" target="_blank" class="mute">privacy policy</a> and 
+          <a href="https://policies.google.com/terms" target="_blank" class="mute">terms of service</a>&nbsp;apply.</span>
 			</p>
     </div>
   
@@ -86,6 +90,7 @@
   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
   crossorigin="anonymous"></script>
     <script src="JS/script.js"></script>
+    
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
 

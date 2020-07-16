@@ -8,6 +8,24 @@
     margin-bottom: -55px;
     position: absolute;
     z-index: 6;
+    width: 273px;
+    height: 25px;
+    background-position: -350px 0;
+    position: relative;
+    background-size: 800px 1000px;
+    text-indent: 110%;
+    white-space: nowrap;
+    overflow: hidden;
+    display: block;
+    background: url(../img/sprite.01818631.svg)
+}
+.btn{
+    top: 21px;
+    width: 140px;
+    visibility: visible;
+    pointer-events: auto;
+    z-index: 901;
+    transition: width .3s cubic-bezier(.165,.84,.44,1);
 }
 .nav-link{
     margin-left: 50px;
@@ -88,6 +106,9 @@ footer .container{
 .copyright{
     background-color: #314D68;
 }
+
+
+
 
      
 
