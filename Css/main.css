@@ -91,14 +91,13 @@ body {
     .content-movies-movies {
       display: flex;
       flex-direction: row;
-      width: 1025px;
+      width: 500px;
       flex-wrap: wrap; }
       .content-movies-movies-movie {
-        margin-left: 15px;
+        margin-left: 20px;
         margin-bottom: 5px;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35); }
         .content-movies-movies-movie--img {
-          
           width: 150px;
           height: 225px;
           border: 1px solid #7e7e7e; }
