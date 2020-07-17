@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #14181c;
-    background-color: #14181c; }
+   }
   
   .content {
     display: flex;
@@ -35,18 +35,18 @@ body {
       justify-content: space-between;
       width: 90%;
       padding-top: 5px; }
-      .content-main--nav:hover {
+      .content-main-nav:hover {
         background: #14181c;
         background: linear-gradient(180deg, rgba(20, 24, 28, 0.6) 0%, rgba(20, 24, 28, 0.45) 37%, rgba(20, 24, 28, 0.3) 74%, rgba(20, 24, 28, 0) 100%); }
       .content-main-nav-logo-small {
         width: 70px; }
-      .content-main-nav-menus {
+      .content-main-nav-menu {
         display: flex; }
-        .content-main-nav-menus-item {
+        .content-main-nav-menu-item {
           color: white;
           margin: 7px;
           font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; }
-        .content-main-nav-menus--search {
+        .content-main-nav-menu--search {
           color: gray;
           width: 150px;
           padding-left: 10px;
@@ -55,7 +55,7 @@ body {
           border-radius: 50px;
           outline: none;
           margin-left: 10px; }
-          .content-main-nav-menus--search:hover {
+          .content-main-nav-menu--search:hover {
             opacity: 100%; }
       .content-main-nav-motto {
         display: flex;
@@ -67,7 +67,7 @@ body {
           color: white;
           font-size: 2.5rem;
           font-family: loraSemibold;
-          margin-bottom: 50px;
+          margin-bottom: 30px;
           line-height: 1.15; }
         .content-main-nav-motto-btn {
           width: 277px;
@@ -93,11 +93,12 @@ body {
       flex-direction: row;
       width: 1025px;
       flex-wrap: wrap; }
-      .content-movies-movies--movie {
+      .content-movies-movies-movie {
         margin-left: 15px;
         margin-bottom: 5px;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35); }
         .content-movies-movies-movie--img {
+          
           width: 150px;
           height: 225px;
           border: 1px solid #7e7e7e; }
@@ -118,7 +119,11 @@ body {
       font-size: 1rem;
       font-weight: 800;
       margin-top: 20px; }
-      .content-footer-menu--item {
+      .content-footer-menu-item {
         margin: 10px; }
-        .content-footer-menu--item:hover {
+        .content-footer-menu-item:hover {
           cursor: pointer; }
+
+
+
+          
