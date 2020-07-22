@@ -1,5 +1,5 @@
 # EBS Movies
-##Technologies
+###Technologies
 HTML
 SCSS
 Javascript
@@ -7,7 +7,7 @@ React (ask your mentor first)
 React-Router (ask your mentor first)
 JQuery (ask your mentro first)
 REM (Relative Lengths) (ask your mentro first)
-##Todo:
+###Todo:
 Create page with list of movies (inspirated on letterboxd.com)
 Create page with profile of movie (inspirated on letterboxd.com/film/da-5-bloods)
 Get list of movies
