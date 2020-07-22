@@ -18,9 +18,9 @@ $(document).ready(() => {
         let movies = "";
     for (let i = 0; i < 12; i++) {
       movies += `
-      <div class="content-movies__movies__movie" onClick="setMovieToStorage(${data.data.results[i].id})">
+      <div class="content-movies-movies-movie" onClick="setMovieToStorage(${data.data.results[i].id})">
           <a href="./movie.html"> 
-            <img class="content-movies__movies__movie--img" src="https://image.tmdb.org/t/p/w500${data.data.results[i].poster_path}"
+            <img class="content-movies-movies-movie--img" src="https://image.tmdb.org/t/p/w500${data.data.results[i].poster_path}"
             alt="" />
           </a>
         </div>
