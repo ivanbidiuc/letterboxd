@@ -7,7 +7,7 @@ body {
      color: #678;
    } 
     
-   }
+   
   
   .content {
     display: flex;
@@ -87,12 +87,13 @@ body {
     width: 100%; }
     .content-movies-movies {
       display: flex;
+      justify-content: center;
       flex-direction: row;
-      width: 1000px;
+      width: 1200px;
       flex-wrap: wrap; }
       .content-movies-movies-movie {
         margin-left: 20px;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35); }
         .content-movies-movies-movie--img {
           width: 150px;
@@ -104,8 +105,8 @@ body {
     flex-direction: row;
     width: 100%;
     height: 100px;
-    margin-top: 0px;
-    margin-bottom: 10px;
+    padding: 32px 0;
+    margin-bottom: 0px;
     background-color: #2c3440;
     justify-content: center; }
      .content-footer-me{
@@ -189,6 +190,13 @@ body {
                 flex-direction: row;
                 width: 230px;
                 justify-content: space-around; }
+        .movie-info-col1-response-1:hover{
+                 color: white; }
+                 .movie-info-col1-response-2:hover{
+                  color: white; }       
+                  .movie-info-col1-response-3:hover{
+                    color: white; } 
+
               .movie-info-col1-netflix {
                 width: 230px;
                 border: 1px solid dimgray;
@@ -198,34 +206,39 @@ body {
                 .movie-info-col1-netflix-header {
                   color: #9ab;
                   display: flex;
-                  flex-direction: row;
                   justify-content: space-between;
                   width: 100%;
                   height: 35px;
                   background-color: #242c34; }
                   .movie-info-col1-netflix-header-item {
                     margin: 5px; }
+                   .movie-info-col1-netflix-header-item-play{
+                     height:10px;
+                     width: 10px;
+                   } 
                 .movie-info-col1-netflix-link {
                   display: flex;
+                  flex-direction: row;
                   align-items: center;
                   width: 100%;
-                  height: 35px;
+                  height: 40px;
                   color: #9ab;
                   border-bottom: 1px solid dimgray; }
                   .movie-info-col1-netflix-link p {
                     margin: 0;
                     margin-left: 5px; }
                     .movie-info-col1-netflix-link-play{
-                      
-                      display: flex;
+                    display: flex;
                     justify-content: center;
-                    align-items: center;
-                    width: 115px;
-                    height: 30px;
+                    align-items: right;
+                    text-transform: uppercase;
+                    letter-spacing: .075em;
+                    width: 60px;
+                    height:20px;
                     color: #9ab;
+                    margin-left: 20px;
                     background: #283038;
-                    border-radius: 3px;
-                    }
+                    border-radius: 3px;}
                 .movie-info-col1-netflix-customize {
                   display: flex;
                   flex-direction: row;
@@ -237,6 +250,14 @@ body {
                   .movie-info-col1-netflix-customize p {
                     margin: 0;
                     margin-left: 5px; }
+                    .movie-info-col1-netflix-customize:hover{
+                      color: deepskyblue;
+                    }
+                   .movie-info-col1-netflix-customize-PRO{
+                     background-color: #ee7000;
+                      color: white;
+                      padding: 1px 6px 1px;
+                    border-radius: 3px;} 
                 .movie-info-col1-netflix-all-services {
                   display: flex;
                   align-items: center;
@@ -247,6 +268,9 @@ body {
                   .movie-info-col1-netflix-all-services p {
                     margin: 0;
                     margin-left: 5px; }
+                  .movie-info-col1-netflix-all-services-p1{
+                    color: deepskyblue;
+                  }  
             .movie-info-col2 {
               display: flex;
               flex-direction: column;
