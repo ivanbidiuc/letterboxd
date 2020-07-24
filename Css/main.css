@@ -157,6 +157,7 @@ body {
         width: 20px;
         height: 20px; }
       .content-footer-menu-icon-facebook{
+        
         width: 20px;
         height: 20px;}
         .content-footer-menu-icon-instagram{
@@ -195,6 +196,7 @@ body {
                 padding: 10px 0 5px;
                 width: 230px;
                 justify-content: space-around; }
+                
         .movie-info-col1-response-1:hover{
                  color: white; }
                  .movie-info-col1-response-2:hover{
@@ -274,8 +276,9 @@ body {
                     margin: 0;
                     margin-left: 5px; }
                   .movie-info-col1-netflix-all-services-p1{
-                    color: deepskyblue;
-                  }  
+                    color: deepskyblue;}  
+                    .movie-info-col1-netflix-all-services-p1:hover{
+                      color: white;} 
                   .movie-info-col1-netflix-all-services-p2:hover{
                     color: goldenrod;
                   } 
