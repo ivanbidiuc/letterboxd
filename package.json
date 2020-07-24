@@ -1,0 +1,22 @@
+{
+  "name": "letterboxd",
+  "version": "1.0.0",
+  "description": "## Technologies 1. HTML 2. SCSS 3. Javascript 4. React (ask your mentor first) 5. React-Router (ask your mentor first) 6. JQuery (ask your mentro first) 7. [REM (Relative Lengths)](https://www.sitepoint.com/understanding-and-using-rem-units-in-css/) (ask your mentro first)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvanBidiuc/letterboxd.git"
+  },
+  "author": "Ivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvanBidiuc/letterboxd/issues"
+  },
+  "homepage": "https://github.com/IvanBidiuc/letterboxd#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
