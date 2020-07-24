@@ -4,7 +4,7 @@
 
 $(document).ready(() => {
     getInitialMovies();
-    $(".content-main-nav-menus--search").on("keydown", setSearchQuery);
+    $(".content-main-nav-menu--search").on("keypress", setSearchQuery);
   });
   
   const getInitialMovies = async () => {
@@ -42,6 +42,7 @@ $(document).ready(() => {
   const setSearchQuery = (event) => {
     if (event.key === "Enter") {
       sessionStorage.setItem("search", event.target.value);
-      window.location.replace("/search.html");
+      console.log(event.key," ",event.target.value)
+      window.location.href = "file:///Users/ivan/Desktop/letterboxd/LetterBoxd/search.html";
     }
   };

@@ -55,7 +55,7 @@ body {
           background-size: 15px;
           background-position: 134px 6px ;
           
-          color: gray;
+          color: black;
           width: 150px;
           height: 25px;
           padding-left: 10px;
@@ -276,7 +276,7 @@ body {
                     margin: 0;
                     margin-left: 5px; }
                   .movie-info-col1-netflix-all-services-p1{
-                    color: deepskyblue;}  
+                    color: deepskyblue;} 
                     .movie-info-col1-netflix-all-services-p1:hover{
                       color: white;} 
                   .movie-info-col1-netflix-all-services-p2:hover{
@@ -377,7 +377,7 @@ body {
                   border-bottom: 1px solid dimgray;
                   margin-top: 20px; }
                   .movie-info-col3-rating-header p {
-                    margin: 0 0 7px 0; }
+                    margin: 0 0 7px 0; }  
                 .movie-info-col3-rating-chart {
                   display: flex;
                   width: 100%;
@@ -441,6 +441,9 @@ body {
                     color: #9ab; }
                     .movie-info-col3-rating-chart-stars p {
                       margin: 0; }
+                     
+                  .movie-info-col3-rating-chart-stars:hover{
+                    color: chartreuse;} 
           
           .movie-footer {
             display: flex;
