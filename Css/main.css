@@ -50,6 +50,10 @@ body {
         .content-main-nav-menu {
           display: flex; }
       .content-main-nav-menu--search{   
+          background-image: url(../resources/search.png);
+          background-repeat: no-repeat;
+          background-size: 15px;
+          background-position: 134px 6px ;
           
           color: gray;
           width: 150px;
