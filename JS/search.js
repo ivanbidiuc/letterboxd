@@ -24,7 +24,7 @@ $(document).ready(() => {
   
   const listMovies = async (newMovie) => {
     try {
-      const movies = newMovie.results.reduce((result, movie, key) => {
+      const movies = newMovies.results.reduce((result, movie, key) => {
         if (key === 1)
           return `
             <div class="search-item">
@@ -39,23 +39,23 @@ $(document).ready(() => {
             </div>
         </div>
             `;
-    //     // result pentru prima iteratie este [object, object]
-    //     return `${result}
-    //       <div class="search-item">
-    //       <a href="./page1.html">
-    //       <img class="search-item-img"
-    //           src="https://image.tmdb.org/t/p/w500/${movie.poster_path}" onClick="setMovieToStorage(${movie.id})" alt="No Photo" />
-    //       </a>
-    //           <div class="search-item-info">
-    //           <p class="search-item-info-title">${movie.title}</p>
-    //           <p class="search-item-info-alternatives">${movie.release_date}</p>
-    //           <p class="search-item-info-directed-by">${movie.vote_average} rating</p>
-    //       </div>
-    //   </div>
-    //       `;
-    //   });
+        // result pentru prima iteratie este [object, object]
+        return `${result}
+          <div class="search-item">
+          <a href="./page1.html">
+          <img class="search-item-img"
+              src="https://image.tmdb.org/t/p/w500/${movie.poster_path}" onClick="setMovieToStorage(${movie.id})" alt="No Photo" />
+          </a>
+              <div class="search-item-info">
+              <p class="search-item-info-title">${movie.title}</p>
+              <p class="search-item-info-alternatives">${movie.release_date}</p>
+              <p class="search-item-info-directed-by">${movie.vote_average} rating</p>
+          </div>
+      </div>
+          `;
+      });
   
-      $(".search").html(movie);
+      $(".search").html(movies);
       generatePagination();
     } catch (error) {
       console.error(error);
@@ -87,7 +87,7 @@ $(document).ready(() => {
   const determineFirstPage = (action) => {
     if (
       (firstPage === 1 && action === "-") ||
-      (firstPage + 4 === foundMovie.total_pages && action === "+")
+      (firstPage + 4 === foundMovies.total_pages && action === "+")
     )
       return;
     if (action === "+") {
