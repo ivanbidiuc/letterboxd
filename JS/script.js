@@ -43,6 +43,6 @@ $(document).ready(() => {
     if (event.key === "Enter") {
       sessionStorage.setItem("search", event.target.value);
       console.log(event.key," ",event.target.value)
-      window.location.href = "file:///Users/ivan/Desktop/letterboxd/LetterBoxd/search.html";
+      window.location.href = "/search.html";
     }
   };
